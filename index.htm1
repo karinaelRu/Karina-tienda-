@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karina | Tienda de Ropa</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f9;
+  color: #3d2630;
+}
+
+header {
+  background: linear-gradient(135deg, #f8a8c4, #fbd4e2);
+  text-align: center;
+  padding: 70px 20px;
+}
+
+header h1 {
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+nav {
+  background: white;
+  text-align: center;
+  padding: 18px;
+  box-shadow: 0 2px 10px #ddd;
+}
+
+nav a {
+  color: #d65b88;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+section {
+  padding: 45px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #c94f7d;
+  font-size: 32px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.producto {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 5px 20px #ead6de;
+}
+
+.producto .foto {
+  height: 260px;
+  background: #f9dce7;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a95c78;
+}
+
+.precio {
+  color: #d14f80;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.boton {
+  display: inline-block;
+  background: #d85d8b;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  background: #d85d8b;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>KARINA</h1>
+  <p>Moda que te representa ✨</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos a Karina</h2>
+  <p style="text-align:center;">
+    Descubre nuestra colección de ropa y encuentra tu estilo.
+  </p>
+</section>
+
+<section id="productos">
+  <h2>Nuestra colección</h2>
+
+  <div class="productos">
+
+    <div class="producto">
+      <div class="foto">FOTO DEL PRODUCTO</div>
+      <h3>Producto 1</h3>
+      <p>Descripción de la ropa</p>
+      <p class="precio">$25</p>
+      <a class="boton" href="#contacto">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <div class="foto">FOTO DEL PRODUCTO</div>
+      <h3>Producto 2</h3>
+      <p>Descripción de la ropa</p>
+      <p class="precio">$30</p>
+      <a class="boton" href="#contacto">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <div class="foto">FOTO DEL PRODUCTO</div>
+      <h3>Producto 3</h3>
+      <p>Descripción de la ropa</p>
+      <p class="precio">$35</p>
+      <a class="boton" href="#contacto">Comprar</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <p style="text-align:center;">
+    Escríbenos para consultar disponibilidad y hacer tu pedido.
+  </p>
+  <p style="text-align:center;">
+    📱 WhatsApp · 📷 Instagram
+  </p>
+</section>
+
+<footer>
+  © 2026 Karina · Tienda de ropa
+</footer>
+
+</body>
+</html>
